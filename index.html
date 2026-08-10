@@ -154,11 +154,6 @@ section{padding:100px 60px}
 .btn-ghost:hover{border-color:var(--white)}
 .contact-detail{margin-top:44px;font-size:13px;color:rgba(255,255,255,0.3)}
 
-/* TECH STACK */
-.stag{font-size:12px;font-weight:500;color:var(--black);border:1px solid var(--border);padding:4px 10px;transition:all 0.15s;cursor:default;display:inline-block}
-.stag:hover{background:var(--black);color:var(--white);border-color:var(--black)}
-.stag-red{color:var(--red);border-color:rgba(217,48,37,0.3)}
-.stag-red:hover{background:var(--red);color:var(--white);border-color:var(--red)}
 
 /* REVEAL */
 .reveal{opacity:0;transform:translateY(20px);transition:opacity 0.5s ease,transform 0.5s ease}
@@ -176,6 +171,8 @@ section{padding:100px 60px}
 .hero-stat-label{font-size:12px;color:var(--muted);line-height:1.4}
 
 @media(max-width:900px){
+  #services > div[style*="grid-template-columns:repeat(3,1fr)"]{grid-template-columns:1fr}
+  #services > div:last-child{padding-left:24px;padding-right:24px}
   nav{padding:16px 24px}
   .nav-links{gap:16px}
   section{padding:64px 24px}
@@ -276,7 +273,7 @@ section{padding:100px 60px}
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#system">System</a></li>
-    <li><a href="#campaigns">Work</a></li>
+    <li><a href="#services">Services</a></li>
     <li><a href="#intelligence">Intelligence</a></li>
     <li><a href="#automation">Automation</a></li>
     <li><a href="#stack">Stack</a></li>
@@ -288,11 +285,11 @@ section{padding:100px 60px}
 <section id="hero">
   <div class="hero-inner">
     <div class="hero-text">
-      <p class="hero-label" style="color:#888888">Portfolio · Hi there,</p>
+      <p class="hero-label" style="color:#888888">Retention &amp; Reactivation Systems</p>
       <h1 class="hero-name" style="color:#111111">I am<br>Lien<span class="dot">.</span></h1>
-      <p class="hero-title" style="color:#111111">CRM, Lifecycle &amp; Commercial Intelligence.</p>
+      <p class="hero-title" style="color:#111111">Retention, Reactivation &amp; Marketing Automation.</p>
       <p class="hero-sub" style="color:#555555">
-        I build lifecycle systems that turn behavioural data into measurable growth across acquisition, activation, retention, and customer value.
+        <strong>I build lifecycle systems that turn dormant customers into revenue</strong> &mdash; from full CRM programmes to single reactivation campaigns. AI-assisted automation, MarTech architecture and marketing operations: I find where the system breaks, then rebuild the workflow so it runs itself.
       </p>
       <div class="hero-btns">
         <a href="mailto:lienpn52@gmail.com" class="btn-primary">&#9993; Get In Touch</a>
@@ -316,7 +313,7 @@ section{padding:100px 60px}
         </div>
         <div class="hero-stat">
           <div class="hero-stat-num">SYD</div>
-          <div class="hero-stat-label">Open to senior CRM &amp; lifecycle roles</div>
+          <div class="hero-stat-label">Based in Sydney, working across AU &amp; US</div>
         </div>
       </div>
     </div>
@@ -362,39 +359,26 @@ section{padding:100px 60px}
 
       <p>Before moving into marketing, I worked in financial analysis, management accounting, and tax advisory. That background shaped how I approach marketing: I don't start with campaigns or creatives, I start with the commercial problem the business is trying to solve.</p>
       <p>When I connect lifecycle activity to revenue, conversion, retention, or profitability, I understand both the marketing side and the financial logic underneath it. I'm comfortable working across marketing, data, product, and commercial teams, and I can hold conversations with a CFO, developer, and sales lead in the same room.</p>
-      <p>Since moving into CRM and lifecycle marketing, I've helped build lifecycle functions from the ground up, evolving organisations from fragmented communications into structured, behaviour-led systems supporting activation, retention, reactivation, and long-term customer value.</p>
-      <p>I build programmes with attribution designed in from day one: user, account, and commercial outcome levels.</p>
+      <p>I build lifecycle functions from the ground up, taking businesses from fragmented, ad hoc communications to structured, behaviour-led systems that handle activation, retention, reactivation and long-term customer value without anyone having to remember to send anything.</p>
+      <p>Every programme I build has attribution designed in from day one, at user, account and commercial outcome levels. You will always know what a campaign returned, not just what it opened.</p>
     </div>
     <div class="about-credentials reveal reveal-d2">
       <div class="cred-item">
-        <div class="cred-title">CRM &amp; Lifecycle Marketing Manager</div>
-        <div class="cred-sub">B2B SaaS Platform · Sep 2023 to Present</div>
+        <div class="cred-title">Lifecycle &amp; Retention</div>
+        <div class="cred-sub">10+ years building CRM and lifecycle programmes across B2B SaaS, e-commerce and DTC. Currently running an always-on lifecycle ecosystem for a platform with 32,000+ users across Australia and the US.</div>
       </div>
       <div class="cred-item">
-        <div class="cred-title">E-commerce &amp; CRM Growth Specialist</div>
-        <div class="cred-sub">Remarkable Outdoor Living · 2023</div>
+        <div class="cred-title">Commercial Foundation</div>
+        <div class="cred-sub">Master of Professional Accounting (Distinction). Background in financial analysis, management accounting and tax advisory, including Grant Thornton. I report in revenue and margin, not open rates.</div>
       </div>
       <div class="cred-item">
-        <div class="cred-title">Digital Marketing Specialist</div>
-        <div class="cred-sub">Selfamour · 2020 to 2023</div>
+        <div class="cred-title">Automation &amp; AI</div>
+        <div class="cred-sub">Design and build automated workflows using n8n, AI models and integrated systems. Everything I deliver is built to run continuously without manual intervention.</div>
       </div>
       <div class="cred-item">
-        <div class="cred-title">Accounting Contractor</div>
-        <div class="cred-sub">InStitchu · Aug 2018 to Feb 2019</div>
+        <div class="cred-title">Founder Experience</div>
+        <div class="cred-sub">Built and ran my own DTC brand for three years, so I understand the constraints of a small team, a real budget, and revenue that has to arrive this month.</div>
       </div>
-      <div class="cred-item">
-        <div class="cred-title">Management Accountant</div>
-        <div class="cred-sub">Aura Group · 2015 to 2018</div>
-      </div>
-      <div class="cred-item">
-        <div class="cred-title">Full-time Study · Master of Professional Accounting</div>
-        <div class="cred-sub">Jul 2013 to Oct 2015 · Distinction</div>
-      </div>
-      <div class="cred-item">
-        <div class="cred-title">Tax Advisor</div>
-        <div class="cred-sub">Grant Thornton Vietnam · 2012 to 2013</div>
-      </div>
-
     </div>
   </div>
 </section>
@@ -444,11 +428,59 @@ section{padding:100px 60px}
   </div>
 </section>
 
+<!-- SERVICES -->
+<section id="services" style="background:var(--off-white);border-top:1px solid var(--border)">
+  <div class="section-header">
+    <p class="section-eyebrow">Work with me</p>
+    <h2 class="section-title">Three Ways I Help<br>Businesses Grow.</h2>
+    <p style="color:var(--muted);font-size:16px;max-width:620px;margin-top:14px;line-height:1.7">Most businesses do not have a lead problem. They have a follow-up problem. Customers who already know you, already bought from you, and quietly stopped coming back are the cheapest revenue available, and almost nobody works them properly.</p>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border);border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
+
+    <div style="background:var(--white);padding:38px 32px;display:flex;flex-direction:column">
+      <div style="font-family:'Barlow','Arial Black',Arial,sans-serif;font-weight:900;font-size:40px;color:var(--red);line-height:1;margin-bottom:18px">01</div>
+      <h3 style="font-family:'Barlow','Arial Black',Arial,sans-serif;font-weight:700;font-size:21px;margin-bottom:14px;line-height:1.2">Customer Reactivation</h3>
+      <p style="font-size:15px;color:#444;line-height:1.7;margin-bottom:20px;flex-grow:1">Your lapsed customer list, worked properly. I build and run segmented, multi-touch SMS and email sequences under your brand, targeting people who drifted rather than left. Priced on results: you pay a share of what actually comes back.</p>
+      <div style="border-top:1px solid var(--border);padding-top:16px">
+        <p style="font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-bottom:8px">Best for</p>
+        <p style="font-size:13px;color:#555;line-height:1.6">Appointment-based businesses with a database that has gone quiet. Clinics, practices, studios, service providers.</p>
+      </div>
+    </div>
+
+    <div style="background:var(--white);padding:38px 32px;display:flex;flex-direction:column">
+      <div style="font-family:'Barlow','Arial Black',Arial,sans-serif;font-weight:900;font-size:40px;color:var(--red);line-height:1;margin-bottom:18px">02</div>
+      <h3 style="font-family:'Barlow','Arial Black',Arial,sans-serif;font-weight:700;font-size:21px;margin-bottom:14px;line-height:1.2">Lifecycle System Builds</h3>
+      <p style="font-size:15px;color:#444;line-height:1.7;margin-bottom:20px;flex-grow:1">The full programme, built from zero. Onboarding, retention, win-back, and everything between, designed around behaviour rather than calendar dates, with attribution built in from day one so you can see what each programme is actually worth.</p>
+      <div style="border-top:1px solid var(--border);padding-top:16px">
+        <p style="font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-bottom:8px">Best for</p>
+        <p style="font-size:13px;color:#555;line-height:1.6">Businesses sending ad hoc campaigns with no system underneath, ready to build something that compounds.</p>
+      </div>
+    </div>
+
+    <div style="background:var(--white);padding:38px 32px;display:flex;flex-direction:column">
+      <div style="font-family:'Barlow','Arial Black',Arial,sans-serif;font-weight:900;font-size:40px;color:var(--red);line-height:1;margin-bottom:18px">03</div>
+      <h3 style="font-family:'Barlow','Arial Black',Arial,sans-serif;font-weight:700;font-size:21px;margin-bottom:14px;line-height:1.2">AI &amp; Workflow Automation</h3>
+      <p style="font-size:15px;color:#444;line-height:1.7;margin-bottom:20px;flex-grow:1">The manual work your team should not be doing. I find where the process breaks, then rebuild it as an automated workflow using AI and integrated systems, so it runs continuously without anyone remembering to start it.</p>
+      <div style="border-top:1px solid var(--border);padding-top:16px">
+        <p style="font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-bottom:8px">Best for</p>
+        <p style="font-size:13px;color:#555;line-height:1.6">Teams losing hours weekly to repetitive tasks that could be triggered by data instead of by people.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div style="max-width:1100px;margin:44px auto 0;padding:0 60px;text-align:center">
+    <p style="font-size:16px;color:#444;line-height:1.7;max-width:600px;margin:0 auto 22px">Not sure which one fits? Start with the smallest version. Most engagements begin with a single reactivation campaign, priced on outcomes, with no lock-in.</p>
+    <a href="https://calendly.com/lienpham/30min" target="_blank" rel="noopener" style="display:inline-block;background:var(--black);color:var(--white);padding:14px 32px;font-size:14px;font-weight:600;text-decoration:none;border:2px solid var(--black);transition:all 0.2s">Book a 30-minute call &rarr;</a>
+  </div>
+</section>
+
 <!-- CAMPAIGNS -->
 <section id="campaigns">
   <div class="campaigns-header">
-    <p class="section-eyebrow">Case Studies</p>
-    <h2 class="section-title">How I Think,<br>Not Just What I Built.</h2>
+    <p class="section-eyebrow">What I build</p>
+    <h2 class="section-title">Systems That Run<br>Without You.</h2>
   </div>
   <div class="campaigns-grid">
 
@@ -724,7 +756,7 @@ section{padding:100px 60px}
       <!-- Footer -->
       <div style="padding:9px 18px 14px;display:flex;align-items:center;gap:7px">
         <div style="width:5px;height:5px;border-radius:50%;background:#D93025;flex-shrink:0"></div>
-        <div style="font-size:9px;color:rgba(255,255,255,0.2);letter-spacing:0.3px;line-height:1.6">Values and specific metrics anonymised — this data is commercially sensitive. Happy to walk through the real numbers and what they mean at interview.</div>
+        <div style="font-size:9px;color:rgba(255,255,255,0.2);letter-spacing:0.3px;line-height:1.6">Values and specific metrics anonymised — this data is commercially sensitive. Happy to walk through the real numbers and what they mean in a conversation.</div>
       </div>
     </div>
 
@@ -976,64 +1008,15 @@ section{padding:100px 60px}
 </section>
 
 
-<!-- TECH STACK -->
-<section id="stack" style="background:var(--white);border-top:1px solid var(--border)">
-  <div class="container">
-    <p class="section-eyebrow">Tech Stack</p>
-    <h2 class="section-title" style="margin-bottom:12px">The Tools I Work With.</h2>
-    <p style="color:var(--muted);font-size:16px;margin-bottom:48px">Across CRM, automation, analytics, AI, and everything in between.</p>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));border-top:1px solid var(--border);border-left:1px solid var(--border)" class="reveal">
-      <div style="padding:22px;border-right:1px solid var(--border);border-bottom:1px solid var(--border)">
-        <div style="font-size:10px;letter-spacing:2px;text-transform:uppercase;font-weight:700;color:var(--red);margin-bottom:12px">CRM and Automation</div>
-        <div style="display:flex;flex-wrap:wrap;gap:6px"><span class="stag">HubSpot</span><span class="stag">Zoho CRM</span><span class="stag">Klaviyo</span><span class="stag">ActiveCampaign</span><span class="stag">Mailchimp</span><span class="stag">ManyChat</span><span class="stag">Upviral</span></div>
-      </div>
-      <div style="padding:22px;border-right:1px solid var(--border);border-bottom:1px solid var(--border)">
-        <div style="font-size:10px;letter-spacing:2px;text-transform:uppercase;font-weight:700;color:var(--red);margin-bottom:12px">Integration and Workflow</div>
-        <div style="display:flex;flex-wrap:wrap;gap:6px"><span class="stag">Make</span><span class="stag">Zapier</span><span class="stag">n8n</span></div>
-      </div>
-      <div style="padding:22px;border-right:1px solid var(--border);border-bottom:1px solid var(--border)">
-        <div style="font-size:10px;letter-spacing:2px;text-transform:uppercase;font-weight:700;color:var(--red);margin-bottom:12px">Analytics and BI</div>
-        <div style="display:flex;flex-wrap:wrap;gap:6px"><span class="stag">GA4</span><span class="stag">Looker Studio</span><span class="stag">Zoho Analytics</span></div>
-      </div>
-      <div style="padding:22px;border-right:1px solid var(--border);border-bottom:1px solid var(--border)">
-        <div style="font-size:10px;letter-spacing:2px;text-transform:uppercase;font-weight:700;color:var(--red);margin-bottom:12px">CMS and Web</div>
-        <div style="display:flex;flex-wrap:wrap;gap:6px"><span class="stag">WordPress</span><span class="stag">Shopify</span><span class="stag">Zoho Sites</span></div>
-      </div>
-      <div style="padding:22px;border-right:1px solid var(--border);border-bottom:1px solid var(--border)">
-        <div style="font-size:10px;letter-spacing:2px;text-transform:uppercase;font-weight:700;color:var(--red);margin-bottom:12px">AI and Content</div>
-        <div style="display:flex;flex-wrap:wrap;gap:6px"><span class="stag">Claude</span><span class="stag">Claude Cowork</span><span class="stag">HeyGen</span><span class="stag">Higgsfield</span><span class="stag">Sora</span><span class="stag">ElevenLabs</span><span class="stag">Nano Banana Pro</span></div>
-      </div>
-      <div style="padding:22px;border-right:1px solid var(--border);border-bottom:1px solid var(--border)">
-        <div style="font-size:10px;letter-spacing:2px;text-transform:uppercase;font-weight:700;color:var(--red);margin-bottom:12px">Social and Scheduling</div>
-        <div style="display:flex;flex-wrap:wrap;gap:6px"><span class="stag">Later</span><span class="stag">Buffer</span><span class="stag">Planable</span><span class="stag">Blotato</span><span class="stag">Meta Business Suite</span></div>
-      </div>
-      <div style="padding:22px;border-right:1px solid var(--border);border-bottom:1px solid var(--border)">
-        <div style="font-size:10px;letter-spacing:2px;text-transform:uppercase;font-weight:700;color:var(--red);margin-bottom:12px">Design and Collaboration</div>
-        <div style="display:flex;flex-wrap:wrap;gap:6px"><span class="stag">Figma</span><span class="stag">Canva</span><span class="stag">Draw.io</span><span class="stag">Asana</span><span class="stag">Notion</span><span class="stag">Slack</span></div>
-      </div>
-      <div style="padding:22px;border-right:1px solid var(--border);border-bottom:1px solid var(--border)">
-        <div style="font-size:10px;letter-spacing:2px;text-transform:uppercase;font-weight:700;color:var(--red);margin-bottom:12px">Technical</div>
-        <div style="display:flex;flex-wrap:wrap;gap:6px"><span class="stag stag-red">SQL</span><span class="stag stag-red">HTML / CSS</span><span class="stag stag-red">JavaScript</span><span class="stag stag-red">Claude Code</span><span class="stag stag-red">Email templating</span></div>
-      </div>
-    </div>
-    <div class="reveal" style="margin-top:2px;background:var(--black);padding:32px 36px;display:flex;align-items:center;gap:32px">
-      <div style="font-family:'Barlow','Arial Black',Arial,sans-serif;font-weight:900;font-size:52px;color:var(--red);line-height:1;flex-shrink:0">?</div>
-      <div>
-        <div style="font-family:'Barlow','Arial Black',Arial,sans-serif;font-weight:700;font-size:19px;color:var(--white);margin-bottom:7px">Working with a different stack?</div>
-        <div style="font-size:14px;color:rgba(255,255,255,0.5);line-height:1.65;max-width:600px">Every tool on this list was new to me once, and became something I built systems in. If your stack isn't here, that's a week of focused learning, not a gap in what I can deliver. The platforms change. The ability to drive outcomes doesn't.</div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- CONTACT -->
 <section id="contact">
   <p class="contact-label">Let's talk</p>
   <div class="contact-name">Let's Build<br>Something<span class="dot">.</span></div>
-  <p class="contact-sub">Open to senior CRM, MarTech, and lifecycle marketing roles in Sydney.</p>
+  <p class="contact-sub">Retention systems, reactivation programmes and marketing automation for businesses sitting on a database worth working.</p>
   <div class="contact-btns">
-    <a href="mailto:lienpn52@gmail.com" class="btn-white">&#9993; lienpn52@gmail.com</a>
-    <a href="https://linkedin.com/in/liennpham" target="_blank" class="btn-ghost">in LinkedIn</a>
+    <a href="https://calendly.com/lienpham/30min" target="_blank" rel="noopener" class="btn-white">Book a 30-minute call &rarr;</a>
+    <a href="mailto:reactivation@lienpham.space" class="btn-ghost">&#9993; Email me</a>
+    <a href="https://linkedin.com/in/liennpham" target="_blank" rel="noopener" class="btn-ghost">in LinkedIn</a>
   </div>
   <div class="contact-detail">0422 366 426 · Sydney, NSW 2204</div>
 </section>
