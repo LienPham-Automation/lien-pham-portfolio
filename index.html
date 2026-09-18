@@ -55,6 +55,7 @@ h3{font-size:24px;line-height:1.05;letter-spacing:-.045em;margin-bottom:10px}p.b
 .steps{counter-reset:step;display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:30px;overflow:hidden;margin-top:34px}.step{counter-increment:step;background:var(--white);padding:26px;min-height:260px}.step::before{content:"0" counter(step);font-size:13px;font-weight:950;color:var(--red);letter-spacing:.14em}.step h3{margin-top:54px}
 .questions{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:28px}.q{border:1px solid var(--line);background:#FFFFFF;border-radius:20px;padding:18px;font-weight:800;line-height:1.25}
 .dark .q{background:var(--white);color:var(--ink);border-color:rgba(255,255,255,.18)}
+.q strong{display:block;margin-bottom:7px;font-size:18px}
 .cta .secondary{background:transparent;color:var(--white);border-color:var(--white)}
 .cta .secondary:hover{background:var(--white);color:var(--ink)}
 .cta{padding:110px 22px;background:var(--ink);color:var(--white);text-align:center}.cta h2{max-width:960px;margin:0 auto 22px}.cta p{max-width:700px;margin:0 auto 28px;color:#ddd0c4;font-size:20px}.cta .btn{border-color:var(--white)}.cta .secondary{color:var(--white)}
@@ -70,7 +71,7 @@ footer{padding:36px 22px;background:var(--ink);color:#9d958f;border-top:1px soli
   <div class="nav-inner">
     <a class="logo" href="#top">LIEN<span>.</span></a>
     <ul class="nav-links">
-      <li><a href="#framework">Framework</a></li><li><a href="#leaks">Leaks</a></li><li><a href="#report">Report</a></li><li><a href="#questions">Questions</a></li><li><a class="nav-cta" href="https://cal.com/lienpham/30min?overlayCalendar=true" target="_blank" rel="noopener">Book audit</a></li>
+      <li><a href="#framework">Framework</a></li><li><a href="#leaks">Leaks</a></li><li><a href="#report">Report</a></li><li><a href="#questions">Checks</a></li><li><a class="nav-cta" href="https://cal.com/lienpham/30min?overlayCalendar=true" target="_blank" rel="noopener">Book a chat</a></li>
     </ul>
   </div>
 </nav>
@@ -80,10 +81,10 @@ footer{padding:36px 22px;background:var(--ink);color:#9d958f;border-top:1px soli
     <div>
       <span class="eyebrow">Audit · Optimise · Automate</span>
       <h1>Bring the messy business. <span class="h1-red">I’ll find the leaks.</span></h1>
-      <p class="lede">I help small business owners audit the way their business actually runs: leads, follow-up, CRM, customer touchpoints, content, admin and reactivation, then turn the mess into practical quick wins.</p>
-      <p class="sub">This is not a “build me a bot while I watch” session. It’s a business workflow audit: we find what is leaking time, money or momentum, then I send a personalised quick wins report within 24 hours.</p>
+      <p class="lede">I help small business owners audit the way their business actually runs: leads, follow-up, CRM, customer touchpoints, content, admin and reactivation, then find the wins that make more money, save time and cost, or improve the customer experience.</p>
+      
       <div class="actions">
-        <a class="btn primary" href="https://cal.com/lienpham/30min?overlayCalendar=true" target="_blank" rel="noopener">Book the 30-min audit →</a>
+        <a class="btn primary" href="https://cal.com/lienpham/30min?overlayCalendar=true" target="_blank" rel="noopener">Book a 30-min chat →</a>
         <a class="btn secondary" href="#report">See what you get</a>
       </div>
       <p class="hero-note">For founders, coaches, consultants, ecommerce brands and small teams drowning in follow-up, admin, content, CRM chaos or missed opportunities.</p>
@@ -124,7 +125,7 @@ footer{padding:36px 22px;background:var(--ink);color:#9d958f;border-top:1px soli
     <div class="reveal">
       <p class="kicker">The framework</p>
       <h2>Audit first. Optimise next. Automate last.</h2>
-      <p class="big">Automation only works when the workflow makes sense. I audit the full business journey, optimise the weak points, then recommend the automations worth building.</p>
+      <p class="big">The audit looks for three kinds of wins: effectiveness, efficiency and quality. In normal human language: make more money, save time and cost, or improve the customer experience.</p>
     </div>
     <div class="matrix reveal">
       <div class="quad focus"><small>01</small><h3>Audit</h3><p>Map the messy reality: leads, follow-up, content, tools, customer touchpoints, admin and reactivation.</p></div>
@@ -138,12 +139,12 @@ footer{padding:36px 22px;background:var(--ink);color:#9d958f;border-top:1px soli
   <div class="wrap">
     <div class="split">
       <div class="reveal"><p class="kicker">What gets audited</p><h2>The whole business journey, not just one shiny tool.</h2></div>
-      <p class="big muted reveal">Content is part of the picture, especially when it saves time and increases your online presence, but the audit looks at the full path from first touch to follow-up, repeat purchase, referral and reactivation.</p>
+      <p class="big muted reveal">Content is part of the system, but not the whole strategy. I look at the full path from first click to enquiry, follow-up, purchase, repeat business, referral and reactivation.</p>
     </div>
     <div class="workflow-grid">
       <div class="workflow-card reveal"><div><span class="tag">Leads</span><h3>Find where enquiries go cold.</h3><p class="muted">Speed-to-lead, missed DMs, form follow-up, quote requests, booking friction and the first 24–48 hours after someone raises their hand.</p></div></div>
       <div class="workflow-card reveal"><div><span class="tag">CRM</span><h3>Clean up the customer brain.</h3><p class="muted">Contacts, segments, pipelines, tags, lifecycle stages and next-best-action prompts so follow-up stops living in your head.</p></div></div>
-      <div class="workflow-card reveal"><div><span class="tag">Content</span><h3>Save time while showing up better.</h3><p class="muted">Turn customer questions, FAQs, objections and founder ideas into posts, emails, captions, FAQs and follow-up assets.</p></div></div>
+      <div class="workflow-card reveal"><div><span class="tag">Content</span><h3>Save time while showing up better.</h3><p class="muted">Turn customer questions, FAQs, objections, reviews and founder ideas into social posts, emails, captions, Facebook ad variations, FAQs and follow-up assets, without starting from a blank page every time.</p></div></div>
       <div class="workflow-card reveal"><div><span class="tag">Follow-up</span><h3>Stop relying on memory.</h3><p class="muted">Reminders, email sequences, customer check-ins, abandoned enquiries, post-purchase journeys and review requests.</p></div></div>
       <div class="workflow-card reveal"><div><span class="tag">Reactivate</span><h3>Wake up quiet customers.</h3><p>Identify past buyers, lapsed clients, cold leads and dormant lists that could be nudged back with the right message.</p></div></div>
       <div class="workflow-card reveal"><div><span class="tag">Admin</span><h3>Remove repeatable drag.</h3><p class="muted">Summaries, handoffs, notes, reporting, templated replies, SOPs and other small tasks quietly eating the week.</p></div></div>
@@ -155,14 +156,14 @@ footer{padding:36px 22px;background:var(--ink);color:#9d958f;border-top:1px soli
     <div class="reveal">
       <p class="kicker">The deliverable</p>
       <h2>Your 24-hour quick wins report.</h2>
-      <p class="big muted">The call diagnoses the business journey. The report gives you the useful next moves: 3–5 pain points, 3–5 practical solutions, recommended optimisations or automations, and what I’d fix first.</p>
-      <div class="actions" style="margin-top:26px"><a class="btn primary" href="https://cal.com/lienpham/30min?overlayCalendar=true" target="_blank" rel="noopener">Book the audit →</a></div>
+      <p class="big muted">The call diagnoses the business journey. The report gives you the useful next moves: the pain, the outcome, your quick wins, recommended tools or automations, effort level, time-saving estimate and what I’d fix first.</p>
+      <div class="actions" style="margin-top:26px"><a class="btn primary" href="https://cal.com/lienpham/30min?overlayCalendar=true" target="_blank" rel="noopener">Book a chat →</a></div>
     </div>
     <div class="report reveal">
-      <div class="report-item"><b>Executive summary</b><p class="muted">What is currently messy, what matters most, and which outcome we are optimising for.</p></div>
-      <div class="report-item"><b>3–5 pain points</b><p class="muted">Specific leaks across leads, CRM, follow-up, content, reactivation, admin or customer experience.</p></div>
-      <div class="report-item"><b>Recommended solutions</b><p class="muted">Practical optimisations, AI tools, automations or workflow changes matched to your business.</p></div>
-      <div class="report-item"><b>Priority order</b><p class="muted">What to do first, what can wait, and what to ignore so you avoid app overwhelm.</p></div>
+      <div class="report-item"><b>Executive summary</b><p class="muted">The pain, the outcome, and which win matters most: more money, time saved, or better customer experience.</p></div>
+      <div class="report-item"><b>Impact-Effort Matrix</b><p class="muted">A clear view of quick wins, bigger projects, nice-to-haves and shiny things to ignore.</p></div>
+      <div class="report-item"><b>3–5 Quick Wins</b><p class="muted">Recommended tools, automations or workflow fixes matched to the pain points we find.</p></div>
+      <div class="report-item"><b>First fix to prioritise</b><p class="muted">What to do first, what can wait, estimated effort, and the practical next step.</p></div>
     </div>
   </div>
 </section>
@@ -173,7 +174,7 @@ footer{padding:36px 22px;background:var(--ink);color:#9d958f;border-top:1px soli
       <p class="big muted reveal">You bring the current reality. I ask the sharp questions, map the highest-value leaks and send back a short action-oriented report using Audit, Optimise and Automate.</p>
     </div>
     <div class="steps reveal">
-      <div class="step"><h3>Book the audit</h3><p class="muted">Use Cal.com and answer a few questions so I can see the likely workflow mess before we speak.</p></div>
+      <div class="step"><h3>Book a chat</h3><p class="muted">Book a call. Bring the real business mess. I’ll bring the sharp questions.</p></div>
       <div class="step"><h3>30-min diagnostic</h3><p class="muted">We walk through leads, CRM, follow-up, content, customer touchpoints, admin, reactivation and repeatable tasks.</p></div>
       <div class="step"><h3>Report in 24 hrs</h3><p class="muted">You get 3–5 quick wins with optimisations, tools, automations, effort level and priority order.</p></div>
       <div class="step"><h3>Decide next move</h3><p class="muted">DIY it, park it, or ask about implementation as a separate step. No pressure cosplay.</p></div>
@@ -183,25 +184,24 @@ footer{padding:36px 22px;background:var(--ink);color:#9d958f;border-top:1px soli
 <section id="questions" class="dark">
   <div class="wrap">
     <div class="split">
-      <div class="reveal"><p class="kicker">The call vibe</p><h2>Questions I’m probably going to ask.</h2></div>
-      <p class="big reveal">These are designed to find ROI, not make you feel clever about AI. Revenue, hours saved and customer experience are the three buckets.</p>
+      <div class="reveal"><p class="kicker">What I actually check</p><h2>The full flow, not just whether the tools are connected.</h2></div>
+      <p class="big reveal">I look for the practical gaps between traffic, enquiries, follow-up, content, CRM, tracking, customer experience and repeat business. That is where the money, time and momentum usually leak.</p>
     </div>
     <div class="questions reveal">
-      <div class="q">What happens in the first 24–48 hours after someone raises their hand?</div>
-      <div class="q">Which tasks are repetitive, manual or mentally draining?</div>
-      <div class="q">Where do leads, tasks or customer moments currently disappear?</div>
-      <div class="q">Which tools feel disconnected or underused?</div>
-      <div class="q">What questions do customers ask over and over?</div>
-      <div class="q">Which lapsed leads, customers or past buyers are worth reactivating?</div>
-      <div class="q">If we fixed one workflow first, what would make the biggest difference?</div>
+      <div class="q"><strong>Lead flow</strong><br>Forms, DMs, bookings, ad leads, email enquiries and where each one lands.</div>
+      <div class="q"><strong>CRM + follow-up</strong><br>How leads are tracked, who follows up, what gets missed, and what needs a next-step prompt.</div>
+      <div class="q"><strong>Tracking + attribution</strong><br>GA4, pixels, UTMs, conversion events and whether you can see which campaigns create real enquiries.</div>
+      <div class="q"><strong>Content + ads</strong><br>Social content, Facebook ad variations, FAQs, objection handling and follow-up assets that save time and support sales.</div>
+      <div class="q"><strong>Customer journey</strong><br>Onboarding, reminders, post-purchase touchpoints, reviews, repeat purchase, referrals and reactivation.</div>
+      <div class="q"><strong>Automation opportunities</strong><br>The repetitive parts worth systemising after the workflow actually makes sense.</div>
     </div>
   </div>
 </section>
 <section class="cta">
   <div class="wrap reveal">
     <h2>Ready to find the leaks before buying another tool?</h2>
-    <p>Book the AI + Workflow Quick Wins Audit. We’ll audit the business journey, identify what to optimise or automate first, then I’ll send the report within 24 hours.</p>
-    <div class="actions" style="justify-content:center"><a class="btn primary" href="https://cal.com/lienpham/30min?overlayCalendar=true" target="_blank" rel="noopener">Book on Cal.com →</a><a class="btn secondary" href="mailto:letschat@lienpham.space">Email me</a></div>
+    <p>Book the AI + Workflow Quick Wins Chat. We’ll look at the business journey, identify what can make more money, save time and cost, or improve customer experience, then I’ll send the report within 24 hours.</p>
+    <div class="actions" style="justify-content:center"><a class="btn primary" href="https://cal.com/lienpham/30min?overlayCalendar=true" target="_blank" rel="noopener">Let’s Chat →</a><a class="btn secondary" href="mailto:letschat@lienpham.space">Email me</a></div>
   </div>
 </section>
 </main>
